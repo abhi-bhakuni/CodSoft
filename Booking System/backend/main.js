@@ -1,6 +1,5 @@
 const express = require("express")
 const cors = require("cors")
-const axios = require("axios")
 
 const User = require("./database/UserSchema")
 const Flight = require("./database/FlightSchema")
@@ -10,8 +9,6 @@ const app = express()
 
 app.use(express.json())
 app.use(cors())
-
-app.use(express.static("public"))
 
 app.post("/UserDetails", async (req, res) => {
     const user = new User(req.body)
