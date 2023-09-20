@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import {data} from '../../Data/data.js'
+import { data } from '../../Data/data.js'
 import './showflight.css'
 
 export default function ShowFlight() {
