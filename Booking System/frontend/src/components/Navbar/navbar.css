@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    list-style: none;
+    height: 100%;
+}
+
+.nav-item>button {
+    margin: 1vh;
+    padding: 1vh;
+    background-color: transparent;
+    border: none;
+}
+
+.nav-item>button:hover {
+    cursor: pointer;
+}

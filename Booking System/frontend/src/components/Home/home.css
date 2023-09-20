@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cont {
+    font-family: pt sans, sans-serif;
+    background-image: url('https://images.livemint.com/img/2022/08/07/1600x900/9f2b2a70-68b2-11ec-9a50-ec8745c0f740_1640807870293_1659845833828_1659845833828.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}

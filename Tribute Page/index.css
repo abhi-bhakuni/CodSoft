@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#audioplay{
+    position: absolute;
+    opacity: 0;
+}
+
+.tribute{
+    height: 100vh;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/995/142/506/indian-air-force-amazing-wallpaper-preview.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont_tribute{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh;
+}
+
+.cont_tribute img{
+    height: 15em;
+    border-radius: 5%;
+    animation: trans 1s linear;
+}
+
+@keyframes trans {
+    from {transform: rotateY(90deg);} to {transform: rotateY(0deg);}
+}
+
+.cont_tribute p{
+    font-size: 25px;
+    animation: trans 1s linear;
+    color: aqua;
+}
+
+.swipe{
+    display: flex;
+    justify-content: center;
+}
+
+.swipe p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5em;
+    height: 3em;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.swipe span{
+    height: .5em;
+    border: 1.5px solid rgb(255, 255, 255);
+    animation: move 2s ease-in-out infinite;
+    font-weight: bolder;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+        transform: translateY(-.75em);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(.75em);
+    }
+}
+
+.about{
+    margin: 10vh 5vw 10vh 5vw;
+}
+
+.head_about{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.head_about p{
+    border-bottom: 2px solid orange;
+}
+
+.cont_about{
+    padding-top: 5vh;
+    text-align: justify;
+}
+
+.quotes{
+    margin: 10vh 5vw 10vh 5vw;
+}
+
+.head_quotes{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.head_quotes p{
+    border-bottom: 2px solid orange;
+}
+
+.cont_quotes{
+    padding-top: 5vh;
+}
+
+.cont_quotes li{
+    list-style: none;
+    text-align: center;
+}
+
+.cont_quotes li span{
+    color: red;
+    font-size: 30px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/995/142/506/indian-air-force-amazing-wallpaper-preview.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

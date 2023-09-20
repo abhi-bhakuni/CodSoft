@@ -1,0 +1,88 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    background: rgba(0, 0, 0, .7);
+    max-height: 100vh;
+    overflow-y: scroll;
+    padding: 30px;
+    border-radius: 6px;
+    scrollbar-width: none;
+}
+
+.login-form::-webkit-scrollbar{
+    display: none;
+}
+
+.login-form .login-form-group {
+    position: relative;
+    margin-bottom: 20px
+}
+
+.login-form .login-form-control {
+    background-color: #fff;
+    height: 50px;
+    color: #191a1e;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 40px;
+    padding: 0 25px
+}
+
+.login-form .login-form-control::-webkit-input-placeholder {
+    color: rgba(82, 82, 84, .4)
+}
+
+.login-form .login-form-control:-ms-input-placeholder {
+    color: rgba(82, 82, 84, .4)
+}
+
+.login-form .login-form-control::placeholder {
+    color: rgba(82, 82, 84, .4)
+}
+
+.login-form .login-form-label {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 24px;
+    height: 24px;
+    font-size: 12px;
+    color: #fff
+}
+
+.login-form .form-btn {
+    margin-top: 27px
+}
+
+.login-form .submit-btn {
+    color: #fff;
+    background-color: #f23e3e;
+    font-weight: 400;
+    height: 50px;
+    font-size: 14px;
+    border: none;
+    width: 100%;
+    border-radius: 40px;
+    text-transform: uppercase;
+    -webkit-transition: .2s all;
+    transition: .2s all
+}
+
+.login-form .submit-btn:hover,
+.login-form .submit-btn:focus {
+    opacity: .9
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
